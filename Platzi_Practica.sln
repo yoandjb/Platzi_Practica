@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platzi_Practica", "Platzi_Practica.csproj", "{1410D56C-B3CD-426E-8DF4-1BF2712CBBB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1410D56C-B3CD-426E-8DF4-1BF2712CBBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1410D56C-B3CD-426E-8DF4-1BF2712CBBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1410D56C-B3CD-426E-8DF4-1BF2712CBBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1410D56C-B3CD-426E-8DF4-1BF2712CBBB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8A463F8-A83C-4F5A-857D-DD22CFB6CE86}
+	EndGlobalSection
+EndGlobal
