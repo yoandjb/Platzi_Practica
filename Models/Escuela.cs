@@ -9,7 +9,6 @@ namespace Platzi_Practica.Models
     {
         public string EscuelaId { get; set; }
         public string Nonbre { get; set; }
-
         public int AñoFundacion { get; set; }
     }
 }

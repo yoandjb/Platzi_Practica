@@ -1,8 +1,13 @@
-﻿
+﻿@model Platzi_Practica.Models.Escuela;
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Escuela Pagina</h1>
+<h1 class="text-center">Platzi Curso</h1>
+<br />
+
+<p class="font-weight-bolder">Escuela: @Model.Nonbre</p>
+<p class="font-weight-bold">Año Fundacion: @Model.AñoFundacion</p>
+
 
