@@ -15,6 +15,7 @@ namespace Platzi_Practica.Controllers
             Escuela.AñoFundacion = 2005;
             Escuela.EscuelaId = Guid.NewGuid().ToString();
             Escuela.Nonbre = "platzi School";
+            ViewBag.Probando = "mensaje desde view bag";
             return View(Escuela);
         }
     }
