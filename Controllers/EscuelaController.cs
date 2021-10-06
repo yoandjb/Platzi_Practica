@@ -12,9 +12,9 @@ namespace Platzi_Practica.Controllers
         public IActionResult Index()
         {
             var Escuela = new Escuela();
-            Escuela.AñoFundacion = 2005;
-            Escuela.EscuelaId = Guid.NewGuid().ToString();
-            Escuela.Nonbre = "platzi School";
+            Escuela.AñoDeCreación = 2005;
+            Escuela.UniqueId = Guid.NewGuid().ToString();
+            Escuela.Nombre = "platzi School";
             ViewBag.Probando = "mensaje desde view bag";
             return View(Escuela);
         }
