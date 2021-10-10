@@ -15,6 +15,11 @@ namespace Platzi_Practica.Controllers
             Escuela.AñoDeCreación = 2005;
             Escuela.UniqueId = Guid.NewGuid().ToString();
             Escuela.Nombre = "platzi School";
+            Escuela.Dirección = "Santo Domingo Este # 48";
+            Escuela.Pais = "Republica Domincana";
+            Escuela.Ciudad = "Ensanche la Fe";
+            Escuela.TipoEscuela = TiposEscuela.Secundaria;
+            
             ViewBag.Probando = "mensaje desde view bag";
             return View(Escuela);
         }

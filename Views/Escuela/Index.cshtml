@@ -7,8 +7,34 @@
 <h1 class="text-center">Platzi Curso</h1>
 <br />
 
-<p class="font-weight-bolder">Escuela: @Model.Nombre</p>
-<p class="font-weight-bold">Año Fundacion: @Model.AñoDeCreación</p>
+<div class="col-7">
+    <h3 class="text-primary">Datos Generales Escuela</h3>
+    <table class="table table-bordered border-success">
+        <tbody>
+            <tr>
+                <th class="alert-info" scope="row">Direccion</th>
+                <td>@Model.Dirección</td>
+            </tr>
+
+            <tr>
+                <th class="alert-info" scope="row">Pais</th>
+                <td>@Model.Pais</td>
+            </tr>
+
+            <tr>
+                <th class="alert-info" scope="row">Ciudad</th>
+                <td>@Model.Ciudad</td>
+            </tr>
+
+            <tr>
+                <th class="alert-info" scope="row">Tipo de escuela</th>
+                <td>@Model.TipoEscuela</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
 @ViewBag.Probando
 
 
